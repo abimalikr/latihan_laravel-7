@@ -1,5 +1,9 @@
 @extends('5BelajarBlade.layouts.master')
 
+@section('title', "Login Euyy")
+
 @section('content')
-    Login
+    <div class="container">
+        Login
+    </div>
 @endsection

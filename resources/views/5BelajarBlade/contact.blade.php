@@ -1,5 +1,9 @@
 @extends('5BelajarBlade.layouts.master')
 
+@section('title', "Contact Euyy")
+
 @section('content')
-    Contact
+    <div class="container">
+        Contact
+    </div>
 @endsection

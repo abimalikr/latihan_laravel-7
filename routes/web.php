@@ -31,14 +31,19 @@ use Illuminate\Support\Facades\Route;
 // Route::view('/series/create','series.premium.create');
 // Route::view('/series/show','series.premium.show');
 
-// 5.
+// 5, 6
 
 route::get('/', function () {
     return view('5BelajarBlade.home');
 });
-
-route::view('5BelajarBlade.contact', '5BelajarBlade/contact');
-route::view('5BelajarBlade.about', '5BelajarBlade/about');
-route::view('5BelajarBlade.login', '5BelajarBlade/login');
+route::get('5BelajarBlade.contact', function () {
+    return view('5BelajarBlade/contact');
+});
+route::get('5BelajarBlade.about', function () {
+    return view('5BelajarBlade/about');
+});
+route::get('5BelajarBlade.login', function () {
+    return view('5BelajarBlade/login');
+});
 
 
